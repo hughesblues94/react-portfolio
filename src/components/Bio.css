@@ -18,7 +18,14 @@ h1 {
   padding-top: 50px;
 }
 
+#skills {
+  padding-top: 50px;
+}
+
 h2 {
   color: blue;
   padding-bottom: 10px;
+}
+hr {
+  margin-top: 20px;
 }
