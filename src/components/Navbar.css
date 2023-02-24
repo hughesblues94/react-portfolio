@@ -19,10 +19,20 @@
   align-self: center;
 }
 
+.link:hover {
+  text-decoration: underline;
+}
+
 .cv {
   color: blue;
   border-style: solid;
   border-radius: 50px;
+}
+
+.cv:hover {
+  text-decoration: none;
+  background-color: blue;
+  color: white;
 }
 .name {
   padding: 15px;

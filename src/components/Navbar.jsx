@@ -9,15 +9,17 @@ const Navbar = () => {
           Craig <br />
           Hughes
         </li>
-        <btn className="link cv">Download CV</btn>
+        <li className="link cv">
+          <a href="#">Download CV</a>
+        </li>
         <li className="link">
           <a href="#">About</a>
         </li>
         <li className="link">
-          <a href="#">Portfolio</a>
+          <a href="#projects">Portfolio</a>
         </li>
         <li className="link">
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </div>
