@@ -1,6 +1,5 @@
 import "./Bio.css";
-import Button from "./Button.jsx";
-
+import ProjectCard from "./ProjectCard";
 const Bio = () => {
   return (
     <div className="container">
@@ -17,28 +16,34 @@ const Bio = () => {
       <h1 id="projects" className="projects">
         Projects
       </h1>
-      <h2>Here are some examples of some projects:</h2>
-      <p>example</p>
-      <p>example</p>
-      <p>example</p>
-      <p>example</p>
-      <p>example</p>
-      <p>example</p>
-      <p>example</p>
-      <p>example</p>
-      <p>example</p>
-      <p>example</p>
+      <h2>Here are some examples of my projects:</h2>
+      <div className="project-cards">
+        <ProjectCard
+          name={"Movie Night"}
+          link={"https://github.com/hughesblues94/movie-night"}
+        />
+        <ProjectCard
+          name={"Weather App"}
+          link={"https://github.com/hughesblues94/weather-app"}
+        />
+        <ProjectCard
+          name={"Virtual Pet"}
+          link={"https://github.com/hughesblues94/virtual-pet"}
+        />
+      </div>
       <hr></hr>
 
       <h1 id="skills">Skills</h1>
 
       <h2>Some technologies I have worked with:</h2>
-      <p>Javascript</p>
-      <p>HTML</p>
-      <p>CSS</p>
-      <p>React</p>
-      <p>Express</p>
-
+      <div className="technologies">
+        <p>Javascript</p>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>React</p>
+        <p>Express</p>
+        <p>Docker</p>
+      </div>
       <h1 id="contact">Contact</h1>
       <h2>Find me on socials:</h2>
     </div>

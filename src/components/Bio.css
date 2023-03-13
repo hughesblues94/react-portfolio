@@ -1,7 +1,7 @@
 .container {
   padding: 20px;
   z-index: 1;
-  margin-left: 105vh;
+  margin-left: 90vh;
 }
 
 h1 {
@@ -14,12 +14,31 @@ h1 {
   padding-top: 50px;
 }
 
+.project-cards {
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+}
+
 #contact {
   padding-top: 50px;
 }
 
 #skills {
   padding-top: 50px;
+}
+
+.technologies {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.technologies > p {
+  border: solid;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5%;
 }
 
 h2 {
