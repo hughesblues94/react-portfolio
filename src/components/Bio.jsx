@@ -1,4 +1,4 @@
-import "./Bio.css";
+import "./styles/Bio.css";
 import ProjectCard from "./ProjectCard";
 const Bio = () => {
   return (

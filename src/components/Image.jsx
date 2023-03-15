@@ -1,5 +1,5 @@
 import moi from "../moi.png";
-import "./Image.css";
+import "./styles/Image.css";
 const Image = () => {
   return (
     <div>
